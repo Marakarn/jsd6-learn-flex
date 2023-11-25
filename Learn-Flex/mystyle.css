@@ -1,0 +1,21 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/** global reset **/
+
+h1 {
+    text-align: center;
+}
+
+.flex-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.flex-children {
+    background-color: orangered;
+    padding: 20px;
+}
